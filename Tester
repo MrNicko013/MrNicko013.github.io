@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -102,6 +101,26 @@
                 transform: translateY(0);
             }
         }
+        .skill-item {
+            background-color: #374151; /* bg-gray-700 */
+            color: #D1D5DB; /* text-gray-300 */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #4B5563; /* border-gray-600 */
+            transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease; /* Added border-color transition */
+        }
+        .skill-item:hover {
+            border-color: #10B981; /* Highlight with accent color on hover */
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1), 0 0 0 4px rgba(16, 185, 129, 0.2); /* More pronounced shadow with green glow */
+        }
+        .skill-icon { /* Styling for the <img> icons */
+            width: 3rem; /* w-12 = 48px */
+            height: 3rem; /* h-12 = 48px */
+            margin-bottom: 0.75rem; /* mb-3 */
+            object-fit: contain; /* Ensures the image fits within the dimensions without cropping, maintaining aspect ratio */
+        }
     </style>
 </head>
 <body class="antialiased">
@@ -117,7 +136,7 @@
                     <li><a href="#skills" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Skills</a></li>
                     <li><a href="#projects" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Projects</a></li>
                     <li><a href="#events" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Events & Participations</a></li>
-                    <li><a href="#contact" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Contact details</a></li>
+                    <li><a href="#contact" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -164,8 +183,66 @@
         <section id="skills" class="content-section bg-gray-700">
             <div class="container mx-auto px-6 lg:px-8">
                 <h2 class="text-4xl font-bold text-center mb-12 text-white">Skills</h2>
-                <p class="text-lg text-center text-gray-300">Details about your skills will be displayed here. You can use icons, progress bars, or simple lists.</p>
-                </div>
+                <p class="text-center text-gray-400 mb-10 max-w-2xl mx-auto">Here are some of the technologies I work with. For the best look, replace the placeholder images below with actual icons (preferably SVGs or high-quality PNGs with transparent backgrounds).</p>
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-6 text-center">
+                    <div class="skill-item p-6 rounded-lg shadow-lg transform hover:scale-105">
+                        <img src="JAVA.png" 
+                             alt="Java Icon"
+                             class="skill-icon"
+                             onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=J&font=inter';">
+                        <h3 class="text-xl font-semibold mt-2">Java</h3>
+                    </div>
+                    <div class="skill-item p-6 rounded-lg shadow-lg transform hover:scale-105">
+                        <img src="Python.png"
+                             alt="Python Icon"
+                             class="skill-icon"
+                             onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=P&font=inter';">
+                        <h3 class="text-xl font-semibold mt-2">Python</h3>
+                    </div>
+                    <div class="skill-item p-6 rounded-lg shadow-lg transform hover:scale-105">
+                        <img src="HTML.png"
+                             alt="HTML Icon"
+                             class="skill-icon"
+                             onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=H&font=inter';">
+                        <h3 class="text-xl font-semibold mt-2">HTML</h3>
+                    </div>
+                    <div class="skill-item p-6 rounded-lg shadow-lg transform hover:scale-105">
+                        <img src="CSS-Logo-2011.png" 
+                             alt="CSS Icon"
+                             class="skill-icon"
+                             onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=C&font=inter';">
+                        <h3 class="text-xl font-semibold mt-2">CSS</h3>
+                    </div>
+                    <div class="skill-item p-6 rounded-lg shadow-lg transform hover:scale-105">
+                        <img src="Linux.png"
+                             alt="Linux Icon"
+                             class="skill-icon"
+                             onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=L&font=inter';">
+                        <h3 class="text-xl font-semibold mt-2">Linux</h3>
+                    </div>
+                    <div class="skill-item p-6 rounded-lg shadow-lg transform hover:scale-105">
+                        <img src="bash.png" 
+                             alt="Bash Icon"
+                             class="skill-icon"
+                             onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=B&font=inter';">
+                        <h3 class="text-xl font-semibold mt-2">Bash</h3>
+                    </div>
+                    <div class="skill-item p-6 rounded-lg shadow-lg transform hover:scale-105">
+                        <img src="git.png"
+                             alt="GIT Icon"
+                             class="skill-icon"
+                             onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=G&font=inter';">
+                        <h3 class="text-xl font-semibold mt-2">GIT</h3>
+                    </div>
+                     <div class="skill-item p-6 rounded-lg shadow-lg transform hover:scale-105">
+                        <img src="mysql.png"
+                             alt="MySQL Icon"
+                             class="skill-icon"
+                             onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=S&font=inter';">
+                        <h3 class="text-xl font-semibold mt-2">MySQL</h3>
+                    </div>
+                    </div>
+            </div>
         </section>
 
         <section id="projects" class="content-section bg-gray-800">
@@ -210,9 +287,6 @@
         document.getElementById('currentYear').textContent = new Date().getFullYear();
 
         // Optional: JavaScript for dynamically updating active nav link on scroll
-        // This is a bit more advanced and requires checking scroll position against section offsets.
-        // For simplicity, the 'active' class is currently static on 'Home'.
-        // You can implement this if you wish for a more dynamic navigation experience.
         const sections = document.querySelectorAll('section[id]');
         const navLinks = document.querySelectorAll('header nav ul li a');
 
@@ -220,8 +294,8 @@
             let current = '';
             sections.forEach(section => {
                 const sectionTop = section.offsetTop;
-                const sectionHeight = section.clientHeight;
-                // Adjusting for sticky header height (approx 84px for py-6 + font size)
+                // const sectionHeight = section.clientHeight; // Not strictly needed for this logic
+                // Adjusting for sticky header height (approx 84px for py-6 + font size, might need tweaking)
                 if (pageYOffset >= (sectionTop - 90)) { 
                     current = section.getAttribute('id');
                 }
@@ -234,10 +308,14 @@
                 }
             });
             // If no section is "current" (e.g., at the very top before #home is fully in view, or at the very bottom)
-            // ensure the home link is active if at the top, or the corresponding link if scrolled to a section.
-            if (!current && pageYOffset < sections[0].offsetTop - 90) {
+            // ensure the home link is active if at the top.
+            if (!current && pageYOffset < sections[0].offsetTop - 90) { // Check if near the top
                  const homeLink = document.querySelector('header nav ul li a[href="#home"]');
-                 if (homeLink) homeLink.classList.add('active');
+                 if (homeLink) {
+                    // Remove active from all others first
+                    navLinks.forEach(l => l.classList.remove('active'));
+                    homeLink.classList.add('active');
+                 }
             }
         });
 
