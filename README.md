@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>THEPRO - Developer Portfolio</title>
+    <title>Telan, Monique - Portfolio </title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
     <style>
@@ -100,7 +100,7 @@
     <header class="py-6 sticky top-0 z-50 bg-gray-900/80 backdrop-blur-md shadow-lg">
         <div class="container mx-auto px-6 lg:px-8 flex justify-between items-center">
             <a href="#" class="text-3xl font-bold text-white">
-                THE<span class="logo-accent">PRO</span>
+                Who am I ?<span class="logo-accent"></span>
             </a>
             <nav>
                 <ul class="flex space-x-6 md:space-x-8 items-center">
@@ -176,5 +176,3 @@
 
 </body>
 </html>
-
-/* This is only a sample code */
