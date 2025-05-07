@@ -116,8 +116,8 @@
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1), 0 0 0 4px rgba(16, 185, 129, 0.2); /* More pronounced shadow with green glow */
         }
         .skill-icon { /* Styling for the <img> icons */
-            width: 3rem; /* w-12 = 48px */
-            height: 3rem; /* h-12 = 48px */
+            width: 6rem; /* w-12 = 48px */
+            height: 6rem; /* h-12 = 48px */
             margin-bottom: 0.75rem; /* mb-3 */
             object-fit: contain; /* Ensures the image fits within the dimensions without cropping, maintaining aspect ratio */
         }
@@ -136,7 +136,7 @@
                     <li><a href="#skills" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Skills</a></li>
                     <li><a href="#projects" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Projects</a></li>
                     <li><a href="#events" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Events & Participations</a></li>
-                    <li><a href="#contact" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Contact</a></li>
+                    <li><a href="#contact" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Contact Details</a></li>
                 </ul>
             </nav>
         </div>
