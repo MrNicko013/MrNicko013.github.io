@@ -136,7 +136,7 @@
                     <li><a href="#skills" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Skills</a></li>
                     <li><a href="#projects" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Projects</a></li>
                     <li><a href="#events" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Events & Participations</a></li>
-                    <li><a href="#contact" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Contact Details</a></li>
+                    <li><a href="#contact" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -184,7 +184,7 @@
             <div class="container mx-auto px-6 lg:px-8">
                 <h2 class="text-4xl font-bold text-center mb-12 text-white">Skills</h2>
                 <p class="text-center text-gray-400 mb-10 max-w-2xl mx-auto">Here are some of the technologies I work with. For the best look, replace the placeholder images below with actual icons (preferably SVGs or high-quality PNGs with transparent backgrounds).</p>
-                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-6 text-center">
+                <div class="grid grid-cols-4 gap-6 text-center max-w-4xl mx-auto">
                     <div class="skill-item p-6 rounded-lg shadow-lg transform hover:scale-105">
                         <img src="JAVA.png" 
                              alt="Java Icon"
