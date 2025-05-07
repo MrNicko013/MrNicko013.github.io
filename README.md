@@ -6,6 +6,9 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
     <style>
+        html {
+            scroll-behavior: smooth; /* Enables smooth scrolling for anchor links */
+        }
         body {
             font-family: 'Inter', sans-serif;
             background-color: #111827; /* Dark background for the whole page */
@@ -13,6 +16,11 @@
         }
         .hero-section {
             background-color: #1F2937; /* Slightly lighter dark for hero */
+        }
+        .content-section { /* Basic styling for new sections */
+            min-height: 80vh; /* Give them some height to see scrolling */
+            padding-top: 4rem; /* Add padding for sticky header */
+            padding-bottom: 4rem;
         }
         .contact-bar {
             background-color: #374151; /* Even lighter dark for contact bar */
@@ -27,7 +35,7 @@
         .cta-button:hover {
             background-color: #059669; /* Tailwind's green-600 */
         }
-        .nav-link.active {
+        .nav-link.active { /* Will need JS to dynamically set active based on scroll */
             color: #10B981;
             font-weight: 600;
         }
@@ -99,23 +107,23 @@
 
     <header class="py-6 sticky top-0 z-50 bg-gray-900/80 backdrop-blur-md shadow-lg">
         <div class="container mx-auto px-6 lg:px-8 flex justify-between items-center">
-            <a href="#" class="text-3xl font-bold text-white">
-                Who am I ?<span class="logo-accent"></span>
+            <a href="#home" class="text-3xl font-bold text-white"> Who am I ?<span class="logo-accent"></span>
             </a>
             <nav>
                 <ul class="flex space-x-6 md:space-x-8 items-center">
-                    <li><a href="#" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300 active">Home</a></li>
-                    <li><a href="#" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Resume</a></li>
-                    <li><a href="#" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Skills</a></li>
-                    <li><a href="#" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Projects</a></li>
-                    <li><a href="#" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Events & Participations </a></li>
+                    <li><a href="#home" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300 active">Home</a></li>
+                    <li><a href="#resume" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Resume</a></li>
+                    <li><a href="#skills" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Skills</a></li>
+                    <li><a href="#projects" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Projects</a></li>
+                    <li><a href="#events" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Events & Participations</a></li>
+                    <li><a href="#contact" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Contact details</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main>
-        <section class="hero-section relative min-h-screen flex items-center overflow-hidden">
+        <section id="home" class="hero-section relative min-h-screen flex items-center overflow-hidden">
             <div class="container mx-auto px-6 lg:px-8 py-16 md:py-24">
                 <div class="grid md:grid-cols-2 gap-12 items-center">
                     <div class="text-center md:text-left">
@@ -135,6 +143,7 @@
                         <img src="Profile.jpg.jpg"
                              alt="Developer Portrait"
                              class="absolute inset-0 w-full h-full object-cover rounded-lg shadow-2xl opacity-70"
+                             onerror="this.onerror=null;this.src='https://placehold.co/800x1000/2D3748/E2E8F0?text=Image+Error&font=inter';"
                         >
                         <div class="scroll-indicator hidden md:flex">
                             <div class="scroll-indicator-dot"></div>
@@ -144,16 +153,44 @@
             </div>
         </section>
 
+        <section id="resume" class="content-section bg-gray-800">
+            <div class="container mx-auto px-6 lg:px-8">
+                <h2 class="text-4xl font-bold text-center mb-12 text-white">My Resume</h2>
+                <p class="text-lg text-center text-gray-300">Resume content will go here. You can embed a PDF, list experiences, etc.</p>
+                </div>
+        </section>
+
+        <section id="skills" class="content-section bg-gray-700">
+            <div class="container mx-auto px-6 lg:px-8">
+                <h2 class="text-4xl font-bold text-center mb-12 text-white">Skills</h2>
+                <p class="text-lg text-center text-gray-300">Details about your skills will be displayed here. You can use icons, progress bars, or simple lists.</p>
+                </div>
+        </section>
+
+        <section id="projects" class="content-section bg-gray-800">
+            <div class="container mx-auto px-6 lg:px-8">
+                <h2 class="text-4xl font-bold text-center mb-12 text-white">Projects</h2>
+                <p class="text-lg text-center text-gray-300">Showcase your projects here. Include descriptions, images, and links.</p>
+                </div>
+        </section>
+
+        <section id="events" class="content-section bg-gray-700">
+            <div class="container mx-auto px-6 lg:px-8">
+                <h2 class="text-4xl font-bold text-center mb-12 text-white">Events & Participations</h2>
+                <p class="text-lg text-center text-gray-300">List any events, hackathons, workshops, or other participations here.</p>
+                </div>
+        </section>
+
         <section id="contact" class="contact-bar py-12 md:py-16">
             <div class="container mx-auto px-6 lg:px-8">
                 <div class="grid md:grid-cols-3 gap-8 text-center md:text-left">
                     <div class="contact-item p-4 rounded-lg hover:bg-gray-700/50 transition-colors">
                         <h3 class="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-1">Email</h3>
-                        <a href="mailto:contact@example.com" class="text-lg text-green-400 hover:text-green-300 transition-colors">nickotelan3@gmail.com</a>
+                        <a href="mailto:nickotelan3@gmail.com" class="text-lg text-green-400 hover:text-green-300 transition-colors">nickotelan3@gmail.com</a>
                     </div>
                     <div class="contact-item p-4 rounded-lg hover:bg-gray-700/50 transition-colors">
                         <h3 class="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-1">Phone</h3>
-                        <a href="tel:+12235008000" class="text-lg text-green-400 hover:text-green-300 transition-colors">+639123924549</a>
+                        <a href="tel:+639123924549" class="text-lg text-green-400 hover:text-green-300 transition-colors">+639123924549</a>
                     </div>
                     <div class="contact-item p-4 rounded-lg hover:bg-gray-700/50 transition-colors">
                         <h3 class="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-1">Location</h3>
@@ -164,10 +201,45 @@
         </section>
     </main>
 
+    <footer class="text-center py-8 bg-gray-900">
+        <p class="text-gray-500">&copy; <span id="currentYear"></span> Telan, Monique. All rights reserved.</p> </footer>
+
     <script>
-        // Blinking cursor effect (already handled by CSS animation)
         // JavaScript for current year in footer
         document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Optional: JavaScript for dynamically updating active nav link on scroll
+        // This is a bit more advanced and requires checking scroll position against section offsets.
+        // For simplicity, the 'active' class is currently static on 'Home'.
+        // You can implement this if you wish for a more dynamic navigation experience.
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('header nav ul li a');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                // Adjusting for sticky header height (approx 84px for py-6 + font size)
+                if (pageYOffset >= (sectionTop - 90)) { 
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').substring(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+            // If no section is "current" (e.g., at the very top before #home is fully in view, or at the very bottom)
+            // ensure the home link is active if at the top, or the corresponding link if scrolled to a section.
+            if (!current && pageYOffset < sections[0].offsetTop - 90) {
+                 const homeLink = document.querySelector('header nav ul li a[href="#home"]');
+                 if (homeLink) homeLink.classList.add('active');
+            }
+        });
+
     </script>
 
 </body>
