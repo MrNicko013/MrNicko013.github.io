@@ -1,9 +1,8 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Telan, Monique V. - Portfolio</title>
+    <title>THEPRO - Developer Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
     <style>
@@ -101,15 +100,15 @@
     <header class="py-6 sticky top-0 z-50 bg-gray-900/80 backdrop-blur-md shadow-lg">
         <div class="container mx-auto px-6 lg:px-8 flex justify-between items-center">
             <a href="#" class="text-3xl font-bold text-white">
-                SAMPLE <span class="logo-accent"></span>
+                THE<span class="logo-accent">PRO</span>
             </a>
             <nav>
                 <ul class="flex space-x-6 md:space-x-8 items-center">
                     <li><a href="#" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300 active">Home</a></li>
                     <li><a href="#" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Resume</a></li>
-                    <li><a href="#" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Portfolio</a></li>
-                    <li><a href="#" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Blog</a></li>
-                    <li><a href="#" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Contact</a></li>
+                    <li><a href="#" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Skills</a></li>
+                    <li><a href="#" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Projects</a></li>
+                    <li><a href="#" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Events & Participations </a></li>
                 </ul>
             </nav>
         </div>
@@ -122,21 +121,20 @@
                     <div class="text-center md:text-left">
                         <p class="text-xl md:text-2xl text-gray-400 mb-3">Hi There!</p>
                         <h1 class="text-5xl sm:text-6xl md:text-7xl font-extrabold text-white mb-4 leading-tight">
-                            I am Developer<span id="cursor" class="blinking-cursor logo-accent"></span>
+                            I'm Monique Telan<span id="cursor" class="blinking-cursor logo-accent"></span>
                         </h1>
                         <p class="text-xl md:text-2xl text-gray-300 mb-8">
-                            I make the complex simple.
+                            A future DevOps Engineer.
                         </p>
                         <a href="#contact" class="cta-button text-white font-semibold py-3 px-8 rounded-lg text-lg inline-block shadow-md hover:shadow-lg transform hover:scale-105">
-                            Contact Me
+                            Send me a message
                         </a>
                     </div>
 
                     <div class="hero-image-container hidden md:block relative w-full h-full min-h-[300px] md:min-h-[500px]">
-                        <img src="https://placehold.co/800x1000/2D3748/E2E8F0?text=Your+Image+Here&font=inter"
+                        <img src="Profile.jpg.jpg"
                              alt="Developer Portrait"
                              class="absolute inset-0 w-full h-full object-cover rounded-lg shadow-2xl opacity-70"
-                             onerror="this.onerror=null;this.src='https://placehold.co/800x1000/2D3748/E2E8F0?text=Image+Error&font=inter';"
                         >
                         <div class="scroll-indicator hidden md:flex">
                             <div class="scroll-indicator-dot"></div>
@@ -151,11 +149,11 @@
                 <div class="grid md:grid-cols-3 gap-8 text-center md:text-left">
                     <div class="contact-item p-4 rounded-lg hover:bg-gray-700/50 transition-colors">
                         <h3 class="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-1">Email</h3>
-                        <a href="mailto:nickotelan3@gmail.com" class="text-lg text-green-400 hover:text-green-300 transition-colors">nickotelan3@gmail.com</a>
+                        <a href="mailto:contact@example.com" class="text-lg text-green-400 hover:text-green-300 transition-colors">nickotelan3@gmail.com</a>
                     </div>
                     <div class="contact-item p-4 rounded-lg hover:bg-gray-700/50 transition-colors">
                         <h3 class="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-1">Phone</h3>
-                        <a href="09123924549" class="text-lg text-green-400 hover:text-green-300 transition-colors">+639123924549</a>
+                        <a href="tel:+12235008000" class="text-lg text-green-400 hover:text-green-300 transition-colors">+639123924549</a>
                     </div>
                     <div class="contact-item p-4 rounded-lg hover:bg-gray-700/50 transition-colors">
                         <h3 class="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-1">Location</h3>
@@ -167,7 +165,7 @@
     </main>
 
     <footer class="text-center py-8 bg-gray-900">
-        <p class="text-gray-500">&copy; <span id="currentYear"></span> Send me a message for inquiries.</p>
+        <p class="text-gray-500">&copy; <span id="currentYear"></span> THEPRO. All rights reserved.</p>
     </footer>
 
     <script>
