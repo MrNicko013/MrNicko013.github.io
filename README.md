@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -116,8 +117,8 @@
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1), 0 0 0 4px rgba(16, 185, 129, 0.2); /* More pronounced shadow with green glow */
         }
         .skill-icon { /* Styling for the <img> icons */
-            width: 3rem; /* w-12 = 48px */
-            height: 3rem; /* h-12 = 48px */
+            width: 6rem; /* w-12 = 48px */
+            height: 6rem; /* h-12 = 48px */
             margin-bottom: 0.75rem; /* mb-3 */
             object-fit: contain; /* Ensures the image fits within the dimensions without cropping, maintaining aspect ratio */
         }
