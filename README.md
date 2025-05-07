@@ -176,3 +176,5 @@
 
 </body>
 </html>
+
+/* This is only a sample code */
