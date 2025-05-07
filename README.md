@@ -164,10 +164,6 @@
         </section>
     </main>
 
-    <footer class="text-center py-8 bg-gray-900">
-        <p class="text-gray-500">&copy; <span id="currentYear"></span> THEPRO. All rights reserved.</p>
-    </footer>
-
     <script>
         // Blinking cursor effect (already handled by CSS animation)
         // JavaScript for current year in footer
