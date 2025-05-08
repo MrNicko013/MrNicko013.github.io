@@ -127,7 +127,7 @@
 
     <header class="py-6 sticky top-0 z-50 bg-gray-900/80 backdrop-blur-md shadow-lg">
         <div class="container mx-auto px-6 lg:px-8 flex justify-between items-center">
-            <a href="#home" class="text-3xl font-bold text-white"> Who am I ?<span class="logo-accent"></span>
+            <a href="#home" class="text-3xl font-bold text-white"> Landscape for best experience <span class="logo-accent"></span>
             </a>
             <nav>
                 <ul class="flex space-x-6 md:space-x-8 items-center">
