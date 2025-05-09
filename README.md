@@ -135,7 +135,7 @@
                     <li><a href="#resume" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Resume</a></li>
                     <li><a href="#skills" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Skills</a></li>
                     <li><a href="#projects" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Projects</a></li>
-                    <li><a href="#events" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Languages & Tools</a></li>
+                    <li><a href="#tools" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Languages & Tools</a></li>
                     <li><a href="#contact" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Contact</a></li>
                 </ul>
             </nav>
@@ -249,9 +249,9 @@
                 </div>
         </section>
 
-        <section id="events" class="content-section bg-gray-700">
+        <section id="tools" class="content-section bg-gray-700">
             <div class="container mx-auto px-6 lg:px-8">
-                <h2 class="text-4xl font-bold text-center mb-12 text-white">Events & Participations</h2>
+                <h2 class="text-4xl font-bold text-center mb-12 text-white">Languages & Tools</h2>
                 <p class="text-lg text-center text-gray-300">List any events, hackathons, workshops, or other participations here.</p>
                 </div>
         </section>
