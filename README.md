@@ -202,11 +202,14 @@
         <section id="skills" class="content-section bg-gray-700">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-6 sm:mb-8 md:mb-12 text-white">Skills</h2>
+                <p class="text-center text-gray-400 mb-8 sm:mb-10 md:mb-12 max-w-2xl mx-auto text-sm sm:text-base md:text-lg">
+                    Beyond specific tools and languages, here are some of the key competencies and methodologies I will bring to the table.
+                </p>
         
                 <div class="grid md:grid-cols-2 gap-8 lg:gap-12 max-w-4xl mx-auto">
         
                     <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-                        <h3 class="text-xl font-semibold text-green-400 text-center mb-4">Soft Skills</h3>
+                        <h3 class="text-xl font-semibold text-green-400 mb-4">Soft Skills</h3>
                         <ul class="list-disc list-inside text-gray-300 space-y-2">
                             <li>Effective Communication (Written & Verbal)</li>
                             <li>Problem-Solving & Analytical Thinking</li>
@@ -217,7 +220,7 @@
                     </div>
         
                     <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-                        <h3 class="text-xl font-semibold text-green-400 text-center mb-4">Methodologies & Practices</h3>
+                        <h3 class="text-xl font-semibold text-green-400 mb-4">Methodologies & Practices</h3>
                         <ul class="list-disc list-inside text-gray-300 space-y-2">
                             <li>Agile Development Principles</li>
                             <li>Scrum Framework</li>
@@ -245,23 +248,23 @@
                 <p class="text-center text-gray-400 mb-6 sm:mb-8 md:mb-10 max-w-2xl mx-auto text-sm sm:text-base md:text-lg">Here are the tools and programming languages that I know. </p>
                 <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-6 text-center max-w-4xl mx-auto">
                     <div class="skill-item p-3 sm:p-4 md:p-6 rounded-lg shadow-lg transform hover:scale-105">
-                        <img src="JAVA.png" alt="Java Icon" class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 mb-2 object-contain" onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=J&font=inter';">
+                        <img src="java.png" alt="Java Icon" class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 mb-2 object-contain" onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=J&font=inter';">
                         <h3 class="text-sm sm:text-base md:text-lg font-semibold mt-1 sm:mt-2">Java</h3>
                     </div>
                     <div class="skill-item p-3 sm:p-4 md:p-6 rounded-lg shadow-lg transform hover:scale-105">
-                        <img src="Python.png" alt="Python Icon" class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 mb-2 object-contain" onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=P&font=inter';">
+                        <img src="python.png" alt="Python Icon" class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 mb-2 object-contain" onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=P&font=inter';">
                         <h3 class="text-sm sm:text-base md:text-lg font-semibold mt-1 sm:mt-2">Python</h3>
                     </div>
                     <div class="skill-item p-3 sm:p-4 md:p-6 rounded-lg shadow-lg transform hover:scale-105">
-                        <img src="HTML.png" alt="HTML Icon" class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 mb-2 object-contain" onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=H&font=inter';">
+                        <img src="html.png" alt="HTML Icon" class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 mb-2 object-contain" onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=H&font=inter';">
                         <h3 class="text-sm sm:text-base md:text-lg font-semibold mt-1 sm:mt-2">HTML</h3>
                     </div>
                     <div class="skill-item p-3 sm:p-4 md:p-6 rounded-lg shadow-lg transform hover:scale-105">
-                        <img src="CSS-Logo-2011.png" alt="CSS Icon" class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 mb-2 object-contain" onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=C&font=inter';">
+                        <img src="CSS.png" alt="CSS Icon" class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 mb-2 object-contain" onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=C&font=inter';">
                         <h3 class="text-sm sm:text-base md:text-lg font-semibold mt-1 sm:mt-2">CSS</h3>
                     </div>
                     <div class="skill-item p-3 sm:p-4 md:p-6 rounded-lg shadow-lg transform hover:scale-105">
-                        <img src="Linux.png" alt="Linux Icon" class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 mb-2 object-contain" onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=L&font=inter';">
+                        <img src="linux.png" alt="Linux Icon" class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 mb-2 object-contain" onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=L&font=inter';">
                         <h3 class="text-sm sm:text-base md:text-lg font-semibold mt-1 sm:mt-2">Linux</h3>
                     </div>
                     <div class="skill-item p-3 sm:p-4 md:p-6 rounded-lg shadow-lg transform hover:scale-105">
