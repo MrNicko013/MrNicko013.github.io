@@ -130,7 +130,7 @@
 
     <header class="py-4 md:py-6 sticky top-0 z-50 bg-gray-900/80 backdrop-blur-md shadow-lg">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-wrap justify-between items-center">
-            <a href="#home" class="text-2xl sm:text-3xl font-bold text-white whitespace-nowrap">Who am I?<span class="logo-accent"></span></a>
+            <a href="#home" class="text-2xl sm:text-3xl font-bold text-white whitespace-nowrap">My Portfolio<span class="logo-accent"></span></a>
             
             <button id="mobile-menu-button" class="md:hidden p-2 rounded-md text-gray-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-500" aria-controls="mobile-menu" aria-expanded="false">
                 <span class="sr-only">Open main menu</span>
