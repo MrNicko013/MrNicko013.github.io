@@ -148,7 +148,7 @@
                     <li><a href="#resume" class="nav-link block py-2 px-3 md:p-1 lg:p-2 text-gray-300 hover:text-green-400 transition-colors duration-300">Resume</a></li>
                     <li><a href="#skills" class="nav-link block py-2 px-3 md:p-1 lg:p-2 text-gray-300 hover:text-green-400 transition-colors duration-300">Skills</a></li>
                     <li><a href="#projects" class="nav-link block py-2 px-3 md:p-1 lg:p-2 text-gray-300 hover:text-green-400 transition-colors duration-300">Projects</a></li>
-                    <li><a href="#tools" class="nav-link block py-2 px-3 md:p-1 lg:p-2 text-gray-300 hover:text-green-400 transition-colors duration-300">Tools & Languages</a></li>
+                    <li><a href="#tools" class="nav-link block py-2 px-3 md:p-1 lg:p-2 text-gray-300 hover:text-green-400 transition-colors duration-300"> Tools & Languages</a></li>
                     <li><a href="#contact" class="nav-link block py-2 px-3 md:p-1 lg:p-2 text-gray-300 hover:text-green-400 transition-colors duration-300">Contact</a></li>
                 </ul>
             </nav>
@@ -165,7 +165,7 @@
                             I'm Monique Telan<span id="cursor" class="blinking-cursor logo-accent"></span>
                         </h1>
                         <p class="text-lg sm:text-xl md:text-2xl text-gray-300 mb-6 sm:mb-8">
-                            A future DevOps Engineer.
+                            Software Dev|DevOps Enthusiast
                         </p>
                         <a href="#contact" class="cta-button text-white font-semibold py-3 px-6 sm:px-8 rounded-lg text-base sm:text-lg inline-block shadow-md hover:shadow-lg transform hover:scale-105">
                             Send me a message
@@ -246,7 +246,7 @@
 
         <section id="contact" class="content-section bg-gray-800 py-10 sm:py-12 md:py-16">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-3 sm:mb-4 text-white">Contact Me</h2>
+                <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-3 sm:mb-4 text-white"> Contact Me</h2>
                 <hr class="border-gray-600 w-1/2 sm:w-1/3 md:w-1/4 mx-auto mb-6 sm:mb-8 md:mb-12"> 
                 <p class="text-base sm:text-lg text-center text-gray-300 mb-6 sm:mb-8 md:mb-12"> 
                     Feel free to reach out through any of the methods below.
