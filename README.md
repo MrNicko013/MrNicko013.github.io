@@ -206,7 +206,7 @@
                 <div class="grid md:grid-cols-2 gap-8 lg:gap-12 max-w-4xl mx-auto">
         
                     <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-                        <h3 class="text-xl font-semibold text-green-400 mb-4">Soft Skills</h3>
+                        <h3 class="text-xl font-semibold text-green-400 text-center mb-4">Soft Skills</h3>
                         <ul class="list-disc list-inside text-gray-300 space-y-2">
                             <li>Effective Communication (Written & Verbal)</li>
                             <li>Problem-Solving & Analytical Thinking</li>
@@ -217,7 +217,7 @@
                     </div>
         
                     <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-                        <h3 class="text-xl font-semibold text-green-400 mb-4">Methodologies & Practices</h3>
+                        <h3 class="text-xl font-semibold text-green-400 text-center mb-4">Methodologies & Practices</h3>
                         <ul class="list-disc list-inside text-gray-300 space-y-2">
                             <li>Agile Development Principles</li>
                             <li>Scrum Framework</li>
