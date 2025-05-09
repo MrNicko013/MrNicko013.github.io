@@ -165,7 +165,7 @@
                             I'm Monique Telan<span id="cursor" class="blinking-cursor logo-accent"></span>
                         </h1>
                         <p class="text-lg sm:text-xl md:text-2xl text-gray-300 mb-6 sm:mb-8">
-                            Software Dev|DevOps Enthusiast
+                            Software Dev | DevOps Enthusiast
                         </p>
                         <a href="#contact" class="cta-button text-white font-semibold py-3 px-6 sm:px-8 rounded-lg text-base sm:text-lg inline-block shadow-md hover:shadow-lg transform hover:scale-105">
                             Send me a message
