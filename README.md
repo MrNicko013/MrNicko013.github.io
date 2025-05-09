@@ -24,14 +24,14 @@
         }
         @media (min-width: 640px) { /* sm breakpoint */
             .content-section {
-                 padding-top: 4rem;
-                 padding-bottom: 4rem;
+                padding-top: 4rem;
+                padding-bottom: 4rem;
             }
         }
         @media (min-width: 768px) { /* md breakpoint */
             .content-section { /* Desktop padding can be larger if needed */
-                 padding-top: 5rem;
-                 padding-bottom: 5rem;
+                padding-top: 5rem;
+                padding-bottom: 5rem;
             }
         }
         /* Contact section uses content-section class, so this specific .contact-bar might be redundant unless used elsewhere */
@@ -185,13 +185,66 @@
         <section id="resume" class="content-section bg-gray-800">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-6 sm:mb-8 md:mb-12 text-white">My Resume</h2>
-                <p class="text-base sm:text-lg text-center text-gray-300">Resume content will go here. You can embed a PDF, list experiences, etc.</p>
-            </div>
+        
+                <div class="text-center mb-8 sm:mb-10 md:mb-12">
+                    <a href="CV-TELAN.pdf"
+                       download="CV-TELAN.pdf" class="cta-button text-white font-semibold py-3 px-6 sm:px-8 rounded-lg text-base sm:text-lg inline-block shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block mr-2 -mt-1" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                        Download CV-TELAN  (PDF)
+                    </a>
+                </div>
+        
+                </div>
         </section>
 
         <section id="skills" class="content-section bg-gray-700">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-6 sm:mb-8 md:mb-12 text-white">Skills</h2>
+                <p class="text-center text-gray-400 mb-8 sm:mb-10 md:mb-12 max-w-2xl mx-auto text-sm sm:text-base md:text-lg">
+                    Beyond specific tools and languages, here are some of the key competencies and methodologies I will bring to the table.
+                </p>
+        
+                <div class="grid md:grid-cols-2 gap-8 lg:gap-12 max-w-4xl mx-auto">
+        
+                    <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                        <h3 class="text-xl font-semibold text-green-400 mb-4">Soft Skills</h3>
+                        <ul class="list-disc list-inside text-gray-300 space-y-2">
+                            <li>Effective Communication (Written & Verbal)</li>
+                            <li>Problem-Solving & Analytical Thinking</li>
+                            <li>Teamwork & Collaboration</li>
+                            <li>Adaptability & Quick Learning</li>
+                            <li>Attention to Detail</li>
+                            </ul>
+                    </div>
+        
+                    <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                        <h3 class="text-xl font-semibold text-green-400 mb-4">Methodologies & Practices</h3>
+                        <ul class="list-disc list-inside text-gray-300 space-y-2">
+                            <li>Agile Development Principles</li>
+                            <li>Scrum Framework</li>
+                            <li>DevOps Culture & Collaboration</li>
+                            <li>Version Control (Git) Workflows</li>
+                            <li>Object-Oriented Design</li>
+                            <li>Tecnical Documentation</li>
+                            </ul>
+                    </div>
+        
+                    </div>
+            </div>
+        </section>
+
+        <section id="projects" class="content-section bg-gray-800">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-6 sm:mb-8 md:mb-12 text-white">Projects</h2>
+                <p class="text-base sm:text-lg text-center text-gray-300">Showcase your projects here. Include descriptions, images, and links.</p>
+            </div>
+        </section>
+
+        <section id="tools" class="content-section bg-gray-700">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-6 sm:mb-8 md:mb-12 text-white">Tools & Languages</h2>
                 <p class="text-center text-gray-400 mb-6 sm:mb-8 md:mb-10 max-w-2xl mx-auto text-sm sm:text-base md:text-lg">Here are the tools and programming languages that I know. </p>
                 <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-6 text-center max-w-4xl mx-auto">
                     <div class="skill-item p-3 sm:p-4 md:p-6 rounded-lg shadow-lg transform hover:scale-105">
@@ -227,20 +280,6 @@
                         <h3 class="text-sm sm:text-base md:text-lg font-semibold mt-1 sm:mt-2">MySQL</h3>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <section id="projects" class="content-section bg-gray-800">
-            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-6 sm:mb-8 md:mb-12 text-white">Projects</h2>
-                <p class="text-base sm:text-lg text-center text-gray-300">Showcase your projects here. Include descriptions, images, and links.</p>
-            </div>
-        </section>
-
-        <section id="tools" class="content-section bg-gray-700">
-            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-6 sm:mb-8 md:mb-12 text-white">Tools & Languages</h2>
-                <p class="text-base sm:text-lg text-center text-gray-300">List any events, hackathons, workshops, or other participations here.</p>
             </div>
         </section>
 
