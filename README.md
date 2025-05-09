@@ -135,7 +135,7 @@
                     <li><a href="#resume" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Resume</a></li>
                     <li><a href="#skills" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Skills</a></li>
                     <li><a href="#projects" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Projects</a></li>
-                    <li><a href="#events" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Events & Participations</a></li>
+                    <li><a href="#events" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Languages & Tools</a></li>
                     <li><a href="#contact" class="nav-link text-gray-300 hover:text-green-400 transition-colors duration-300">Contact</a></li>
                 </ul>
             </nav>
