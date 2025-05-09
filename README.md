@@ -256,24 +256,25 @@
                 </div>
         </section>
 
-        <section id="contact" class="contact-bar py-12 md:py-16">
-            <div class="container mx-auto px-6 lg:px-8">
-                <div class="grid md:grid-cols-3 gap-8 text-center md:text-left">
-                    <div class="contact-item p-4 rounded-lg hover:bg-gray-700/50 transition-colors">
-                        <h3 class="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-1">Email</h3>
-                        <a href="mailto:nickotelan3@gmail.com" class="text-lg text-green-400 hover:text-green-300 transition-colors">nickotelan3@gmail.com</a>
-                    </div>
-                    <div class="contact-item p-4 rounded-lg hover:bg-gray-700/50 transition-colors">
-                        <h3 class="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-1">Phone</h3>
-                        <a href="tel:+639123924549" class="text-lg text-green-400 hover:text-green-300 transition-colors">+639123924549</a>
-                    </div>
-                    <div class="contact-item p-4 rounded-lg hover:bg-gray-700/50 transition-colors">
-                        <h3 class="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-1">Location</h3>
-                        <p class="text-lg text-gray-200">Pembo, Taguig City </p>
-                    </div>
-                </div>
+        <section id="contact" class="content-section bg-gray-800"> <div class="container mx-auto px-6 lg:px-8">
+        <h2 class="text-4xl font-bold text-center mb-4 text-white">Contact Me</h2> <hr class="border-gray-600 w-1/4 mx-auto mb-12"> <p class="text-lg text-center text-gray-300 mb-12"> Feel free to reach out through any of the methods below.
+        </p>
+
+        <div class="grid md:grid-cols-3 gap-8 text-center md:text-left">
+            <div class="contact-item bg-gray-700 p-6 rounded-lg shadow-lg hover:bg-gray-600/80 transition-colors"> <h3 class="text-lg font-semibold text-green-400 uppercase tracking-wider mb-2">Email</h3> <a href="mailto:nickotelan3@gmail.com" class="text-xl text-gray-200 hover:text-white transition-colors">nickotelan3@gmail.com</a>
             </div>
-        </section>
+            <div class="contact-item bg-gray-700 p-6 rounded-lg shadow-lg hover:bg-gray-600/80 transition-colors">
+                <h3 class="text-lg font-semibold text-green-400 uppercase tracking-wider mb-2">Phone</h3>
+                <a href="tel:+639123924549" class="text-xl text-gray-200 hover:text-white transition-colors">+639123924549</a>
+            </div>
+            <div class="contact-item bg-gray-700 p-6 rounded-lg shadow-lg hover:bg-gray-600/80 transition-colors">
+                <h3 class="text-lg font-semibold text-green-400 uppercase tracking-wider mb-2">Location</h3>
+                <p class="text-xl text-gray-200">Pembo, Taguig City </p>
+            </div>
+        </div>
+    </div>
+</section>
+
     </main>
 
     <script>
