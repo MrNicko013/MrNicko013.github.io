@@ -202,9 +202,6 @@
         <section id="skills" class="content-section bg-gray-700">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-6 sm:mb-8 md:mb-12 text-white">Skills</h2>
-                <p class="text-center text-gray-400 mb-8 sm:mb-10 md:mb-12 max-w-2xl mx-auto text-sm sm:text-base md:text-lg">
-                    Beyond specific tools and languages, here are some of the key competencies and methodologies I will bring to the table.
-                </p>
         
                 <div class="grid md:grid-cols-2 gap-8 lg:gap-12 max-w-4xl mx-auto">
         
