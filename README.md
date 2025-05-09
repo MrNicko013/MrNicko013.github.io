@@ -246,7 +246,7 @@
 
         <section id="contact" class="content-section bg-gray-800 py-10 sm:py-12 md:py-16">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-3 sm:mb-4 text-white"> Contact Me</h2>
+                <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-3 sm:mb-4 text-white"> Contact Details</h2>
                 <hr class="border-gray-600 w-1/2 sm:w-1/3 md:w-1/4 mx-auto mb-6 sm:mb-8 md:mb-12"> 
                 <p class="text-base sm:text-lg text-center text-gray-300 mb-6 sm:mb-8 md:mb-12"> 
                     Feel free to reach out through any of the methods below.
