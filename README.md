@@ -276,9 +276,6 @@
         </section>
     </main>
 
-    <footer class="text-center py-8 bg-gray-900">
-        <p class="text-gray-500">&copy; <span id="currentYear"></span> Telan, Monique. All rights reserved.</p> </footer>
-
     <script>
         // JavaScript for current year in footer
         document.getElementById('currentYear').textContent = new Date().getFullYear();
