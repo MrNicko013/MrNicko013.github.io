@@ -182,7 +182,7 @@
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-6 sm:mb-8 md:mb-12 text-white">My Resume</h2>
                 <div class="text-center mb-8 sm:mb-10 md:mb-12">
-                    <a href="CV-TELAN.pdf" download="CV-TELAN.pdf" class="cta-button text-white font-semibold py-3 px-6 sm:px-8 rounded-lg text-base sm:text-lg inline-block shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300">
+                    <a href="TELAN-RESUME.pdf" download="RESUME-TELAN.pdf" class="cta-button text-white font-semibold py-3 px-6 sm:px-8 rounded-lg text-base sm:text-lg inline-block shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block mr-2 -mt-1" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" />
                         </svg>
@@ -192,33 +192,42 @@
             </div>
         </section>
 
-        <section id="skills" class="content-section bg-gray-700">
+        <section id="tools" class="content-section bg-gray-700">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-6 sm:mb-8 md:mb-12 text-white">Skills</h2>
-                <p class="text-center text-gray-400 mb-8 sm:mb-10 md:mb-12 max-w-2xl mx-auto text-sm sm:text-base md:text-lg">
-                    In addition to the specific tools and languages I’m familiar with, I offer the following key competencies and methodologies.
-                </p>
-                <div class="grid md:grid-cols-2 gap-8 lg:gap-12 max-w-4xl mx-auto">
-                    <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-                        <h3 class="text-xl font-semibold text-green-400 text-center mb-4">Soft Skills</h3>
-                        <ul class="list-disc list-inside text-gray-300 space-y-2">
-                            <li>Effective Communication (Written & Verbal)</li>
-                            <li>Problem-Solving & Analytical Thinking</li>
-                            <li>Teamwork & Collaboration</li>
-                            <li>Adaptability & Quick Learning</li>
-                            <li>Attention to Detail</li>
-                        </ul>
+                <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-6 sm:mb-8 md:mb-12 text-white">Tools & Languages</h2>
+                <p class="text-center text-gray-400 mb-6 sm:mb-8 md:mb-10 max-w-2xl mx-auto text-sm sm:text-base md:text-lg">The following are the tools and programming languages I am proficient in.</p>
+                <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-6 text-center max-w-4xl mx-auto">
+                    <div class="skill-item p-3 sm:p-4 md:p-6 rounded-lg shadow-lg transform hover:scale-105">
+                        <img src="java.png" alt="Java Icon" class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 mb-2 object-contain" onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=J&font=inter';">
+                        <h3 class="text-sm sm:text-base md:text-lg font-semibold mt-1 sm:mt-2">Java</h3>
                     </div>
-                    <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-                        <h3 class="text-xl font-semibold text-green-400 text-center mb-4">Methodologies & Practices</h3>
-                        <ul class="list-disc list-inside text-gray-300 space-y-2">
-                            <li>Agile Development Principles</li>
-                            <li>Scrum Framework</li>
-                            <li>DevOps Culture & Collaboration</li>
-                            <li>Version Control (Git) Workflows</li>
-                            <li>Object-Oriented Design</li>
-                            <li>Technical Documentation</li>
-                        </ul>
+                    <div class="skill-item p-3 sm:p-4 md:p-6 rounded-lg shadow-lg transform hover:scale-105">
+                        <img src="python.png" alt="Python Icon" class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 mb-2 object-contain" onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=P&font=inter';">
+                        <h3 class="text-sm sm:text-base md:text-lg font-semibold mt-1 sm:mt-2">Python</h3>
+                    </div>
+                    <div class="skill-item p-3 sm:p-4 md:p-6 rounded-lg shadow-lg transform hover:scale-105">
+                        <img src="html.png" alt="HTML Icon" class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 mb-2 object-contain" onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=H&font=inter';">
+                        <h3 class="text-sm sm:text-base md:text-lg font-semibold mt-1 sm:mt-2">HTML</h3>
+                    </div>
+                    <div class="skill-item p-3 sm:p-4 md:p-6 rounded-lg shadow-lg transform hover:scale-105">
+                        <img src="css.png.webp" alt="CSS Icon" class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 mb-2 object-contain" onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=C&font=inter';">
+                        <h3 class="text-sm sm:text-base md:text-lg font-semibold mt-1 sm:mt-2">CSS</h3>
+                    </div>
+                    <div class="skill-item p-3 sm:p-4 md:p-6 rounded-lg shadow-lg transform hover:scale-105">
+                        <img src="linux.png" alt="Linux Icon" class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 mb-2 object-contain" onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=L&font=inter';">
+                        <h3 class="text-sm sm:text-base md:text-lg font-semibold mt-1 sm:mt-2">Linux</h3>
+                    </div>
+                    <div class="skill-item p-3 sm:p-4 md:p-6 rounded-lg shadow-lg transform hover:scale-105">
+                        <img src="bash.png" alt="Bash Icon" class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 mb-2 object-contain" onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=B&font=inter';">
+                        <h3 class="text-sm sm:text-base md:text-lg font-semibold mt-1 sm:mt-2">Bash</h3>
+                    </div>
+                    <div class="skill-item p-3 sm:p-4 md:p-6 rounded-lg shadow-lg transform hover:scale-105">
+                        <img src="git.jpg" alt="GIT Icon" class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 mb-2 object-contain" onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=G&font=inter';">
+                        <h3 class="text-sm sm:text-base md:text-lg font-semibold mt-1 sm:mt-2">GIT</h3>
+                    </div>
+                    <div class="skill-item p-3 sm:p-4 md:p-6 rounded-lg shadow-lg transform hover:scale-105">
+                        <img src="mysql.jpg" alt="MySQL Icon" class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 mb-2 object-contain" onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=S&font=inter';">
+                        <h3 class="text-sm sm:text-base md:text-lg font-semibold mt-1 sm:mt-2">MySQL</h3>
                     </div>
                 </div>
             </div>
@@ -265,42 +274,33 @@ Below are some of the projects I have worked on this year.                </p>
             </div>
         </section>
 
-        <section id="tools" class="content-section bg-gray-700">
+        <section id="skills" class="content-section bg-gray-700">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-6 sm:mb-8 md:mb-12 text-white">Tools & Languages</h2>
-                <p class="text-center text-gray-400 mb-6 sm:mb-8 md:mb-10 max-w-2xl mx-auto text-sm sm:text-base md:text-lg">The following are the tools and programming languages I am proficient in.</p>
-                <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-6 text-center max-w-4xl mx-auto">
-                    <div class="skill-item p-3 sm:p-4 md:p-6 rounded-lg shadow-lg transform hover:scale-105">
-                        <img src="java.png" alt="Java Icon" class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 mb-2 object-contain" onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=J&font=inter';">
-                        <h3 class="text-sm sm:text-base md:text-lg font-semibold mt-1 sm:mt-2">Java</h3>
+                <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-6 sm:mb-8 md:mb-12 text-white">Skills</h2>
+                <p class="text-center text-gray-400 mb-8 sm:mb-10 md:mb-12 max-w-2xl mx-auto text-sm sm:text-base md:text-lg">
+                    In addition to the specific tools and languages I’m familiar with, I offer the following key competencies and methodologies.
+                </p>
+                <div class="grid md:grid-cols-2 gap-8 lg:gap-12 max-w-4xl mx-auto">
+                    <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                        <h3 class="text-xl font-semibold text-green-400 text-center mb-4">Soft Skills</h3>
+                        <ul class="list-disc list-inside text-gray-300 space-y-2">
+                            <li>Effective Communication (Written & Verbal)</li>
+                            <li>Problem-Solving & Analytical Thinking</li>
+                            <li>Teamwork & Collaboration</li>
+                            <li>Adaptability & Quick Learning</li>
+                            <li>Attention to Detail</li>
+                        </ul>
                     </div>
-                    <div class="skill-item p-3 sm:p-4 md:p-6 rounded-lg shadow-lg transform hover:scale-105">
-                        <img src="python.png" alt="Python Icon" class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 mb-2 object-contain" onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=P&font=inter';">
-                        <h3 class="text-sm sm:text-base md:text-lg font-semibold mt-1 sm:mt-2">Python</h3>
-                    </div>
-                    <div class="skill-item p-3 sm:p-4 md:p-6 rounded-lg shadow-lg transform hover:scale-105">
-                        <img src="html.png" alt="HTML Icon" class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 mb-2 object-contain" onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=H&font=inter';">
-                        <h3 class="text-sm sm:text-base md:text-lg font-semibold mt-1 sm:mt-2">HTML</h3>
-                    </div>
-                    <div class="skill-item p-3 sm:p-4 md:p-6 rounded-lg shadow-lg transform hover:scale-105">
-                        <img src="css.png.webp" alt="CSS Icon" class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 mb-2 object-contain" onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=C&font=inter';">
-                        <h3 class="text-sm sm:text-base md:text-lg font-semibold mt-1 sm:mt-2">CSS</h3>
-                    </div>
-                    <div class="skill-item p-3 sm:p-4 md:p-6 rounded-lg shadow-lg transform hover:scale-105">
-                        <img src="linux.png" alt="Linux Icon" class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 mb-2 object-contain" onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=L&font=inter';">
-                        <h3 class="text-sm sm:text-base md:text-lg font-semibold mt-1 sm:mt-2">Linux</h3>
-                    </div>
-                    <div class="skill-item p-3 sm:p-4 md:p-6 rounded-lg shadow-lg transform hover:scale-105">
-                        <img src="bash.png" alt="Bash Icon" class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 mb-2 object-contain" onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=B&font=inter';">
-                        <h3 class="text-sm sm:text-base md:text-lg font-semibold mt-1 sm:mt-2">Bash</h3>
-                    </div>
-                    <div class="skill-item p-3 sm:p-4 md:p-6 rounded-lg shadow-lg transform hover:scale-105">
-                        <img src="git.jpg" alt="GIT Icon" class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 mb-2 object-contain" onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=G&font=inter';">
-                        <h3 class="text-sm sm:text-base md:text-lg font-semibold mt-1 sm:mt-2">GIT</h3>
-                    </div>
-                    <div class="skill-item p-3 sm:p-4 md:p-6 rounded-lg shadow-lg transform hover:scale-105">
-                        <img src="mysql.jpg" alt="MySQL Icon" class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 mb-2 object-contain" onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=S&font=inter';">
-                        <h3 class="text-sm sm:text-base md:text-lg font-semibold mt-1 sm:mt-2">MySQL</h3>
+                    <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                        <h3 class="text-xl font-semibold text-green-400 text-center mb-4">Methodologies & Practices</h3>
+                        <ul class="list-disc list-inside text-gray-300 space-y-2">
+                            <li>Agile Development Principles</li>
+                            <li>Scrum Framework</li>
+                            <li>DevOps Culture & Collaboration</li>
+                            <li>Version Control (Git) Workflows</li>
+                            <li>Object-Oriented Design</li>
+                            <li>Technical Documentation</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -330,10 +330,6 @@ Below are some of the projects I have worked on this year.                </p>
             </div>
         </section>
     </main>
-
-    <footer class="text-center py-6 sm:py-8 bg-gray-900">
-        <p class="text-xs sm:text-sm md:text-base text-gray-500">&copy; <span id="currentYear"></span> Telan, Monique. All rights reserved.</p>
-    </footer>
 
     <div id="image-lightbox" class="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center p-4 hidden z-[100]">
         <div class="bg-gray-800 p-4 sm:p-6 rounded-lg shadow-2xl w-full max-w-3xl max-h-[90vh] relative flex flex-col">
