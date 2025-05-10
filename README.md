@@ -272,7 +272,7 @@
                         <h3 class="text-sm sm:text-base md:text-lg font-semibold mt-1 sm:mt-2">Bash</h3>
                     </div>
                     <div class="skill-item p-3 sm:p-4 md:p-6 rounded-lg shadow-lg transform hover:scale-105">
-                        <img src="git.png" alt="GIT Icon" class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 mb-2 object-contain" onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=G&font=inter';">
+                        <img src="git.jpg" alt="GIT Icon" class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 mb-2 object-contain" onerror="this.onerror=null;this.src='https://placehold.co/64x64/CCCCCC/9CA3AF?text=G&font=inter';">
                         <h3 class="text-sm sm:text-base md:text-lg font-semibold mt-1 sm:mt-2">GIT</h3>
                     </div>
                     <div class="skill-item p-3 sm:p-4 md:p-6 rounded-lg shadow-lg transform hover:scale-105">
