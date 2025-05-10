@@ -243,7 +243,7 @@ Below are some of the projects I have worked on this year.                </p>
                              "images/Proj1-sample7.png"]'>
                         <img src="images/Proj1-sample.png" alt="Virtual Wallet Thumbnail" class="w-full h-48 object-cover rounded-md mb-4">
                         <h3 class="text-xl font-semibold text-green-400 mb-2">Virtual Wallet Application</h3>
-                        <p class="text-gray-300 text-sm">A simple virtual wallet application. Click to view 6 sample images.</p>
+                        <p class="text-gray-300 text-sm">A simple virtual wallet application that helps users deposit, withdraw, and transfer money from any device at their convenience.</p>
                     </div>
 
                     <div class="project-item bg-gray-700 p-5 rounded-lg shadow-xl cursor-pointer transition-transform hover:scale-105"
